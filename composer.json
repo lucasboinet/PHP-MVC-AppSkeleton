@@ -1,20 +1,5 @@
 {
     "name": "boinetl/php-mvc-app-skeleton",
-    "type": "library",
-    "description": "basic app skeleton for MVC PHP web application",
-    "keywords": [
-        "php",
-        "mvc"
-    ],
-    "homepage": "https://github.com/lucasboinet/PHP-MVC-AppSkeleton",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Boinet Lucas",
-            "email": "lucasboinet.pro@gmail.com",
-            "role": "Developer"
-        }
-    ],
     "require": {
         "php": ">=7.4"
     },
@@ -24,6 +9,5 @@
             "Controller\\": "controller/",
             "routes\\": "routes/"
         }
-    },
-    "version": "1.0.0"
+    }
 }

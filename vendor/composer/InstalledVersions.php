@@ -24,24 +24,24 @@ class InstalledVersions
 private static $installed = array (
   'root' => 
   array (
-    'pretty_version' => '1.0.0+no-version-set',
-    'version' => '1.0.0.0',
+    'pretty_version' => 'dev-master',
+    'version' => 'dev-master',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
-    'name' => 'boinetl/php_mvc_app-skeleton',
+    'reference' => 'f122d8a79efe4faf8e15f99926d5664851a86403',
+    'name' => 'boinetl/php-mvc-app-skeleton',
   ),
   'versions' => 
   array (
-    'boinetl/php_mvc_app-skeleton' => 
+    'boinetl/php-mvc-app-skeleton' => 
     array (
-      'pretty_version' => '1.0.0+no-version-set',
-      'version' => '1.0.0.0',
+      'pretty_version' => 'dev-master',
+      'version' => 'dev-master',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => 'f122d8a79efe4faf8e15f99926d5664851a86403',
     ),
   ),
 );
