@@ -1,0 +1,18 @@
+{
+    "name": "boinetl/php_mvc_app-skeleton",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Boinet Lucas",
+            "email": "lucas.boinet@etu.univ-grenoble-alpes.fr"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Model\\": "model/",
+            "Controller\\": "controller/",
+            "routes\\": "routes/"
+        }
+    }
+}

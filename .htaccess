@@ -1,0 +1,15 @@
+<IfModule rewrite_module>
+
+    <IfModule negotiation_module>
+        Options -MultiViews
+    </IfModule>
+
+    Options +FollowSymlinks
+    Options -Indexes
+
+    RewriteEngine on
+
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
+
+</IfModule>
