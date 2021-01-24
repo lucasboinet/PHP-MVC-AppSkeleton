@@ -1,5 +1,5 @@
 {
-    "name": "boinetl/php_mvc_app-skeleton",
+    "name": "boinetl/php-mvc-app-skeleton",
     "type": "library",
     "description": "basic app skeleton for MVC PHP web application",
     "keywords": [
