@@ -15,7 +15,9 @@
             "role": "Developer"
         }
     ],
-    "require": {},
+    "require": {
+        "php": ">=7.4.9"
+    },
     "autoload": {
         "psr-4": {
             "Model\\": "model/",
